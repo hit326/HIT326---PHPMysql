@@ -5,7 +5,7 @@
 
 <?php $page_title = 'Reset Password'; ?>
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
-
+<div class="container"> 
 <div class="wrapper">
         <h2>Reset Password</h2>
         <p>Please fill out this form to reset your password.</p>
@@ -26,3 +26,4 @@
             </div>
         </form>
     </div>    
+</div>

@@ -4,12 +4,14 @@
 <html lang="en">
   <head>
     <title>HIT326</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" media="all" href="stylesheets/staff.css" />
     <meta charset="utf-8">
   </head>
   <body>
-    <h1>Bail Support Portal</h1>
+    <h1> Bail Support System Portal</h1>
+      <div class="container"> 
+      
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
@@ -29,6 +31,8 @@
             </div>
             <p>Don't have an account? <a href="Login_System/Register.php">Sign up now</a>.</p>
         </form>
-    </div>      
+    </div>  
+    </div>
+
   </body>
 </html>

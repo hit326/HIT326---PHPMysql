@@ -2,7 +2,7 @@
 // Initialize the session
 session_start();
  
-// Check if the user is already logged in, if yes then redirect him to welcome page
+// Check if the user is already logged in, if yes then redirect him to staff home page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: ../public/staff/index.php");
     exit;
@@ -75,7 +75,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     $username_err = "No account found with that username.";
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                echo "Something went wrong. Please try again later.";
             }
         }
         
