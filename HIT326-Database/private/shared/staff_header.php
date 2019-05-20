@@ -5,7 +5,7 @@
 <!doctype html>
 
 <html lang="en">
-    
+
   <head>
     <title>HIT326 <?php echo h($page_title); ?></title>
     <meta charset="utf-8">
@@ -14,15 +14,12 @@
       <meta charset="utf-8">
     <link rel="stylesheet" media="all" href="<?php echo url_for('/stylesheets/staff.css'); ?>" />
     
+    <script language="javascript" src="calendar/calendar.js"></script>
+
   </head>
 
   <body>
     <header>
       <h1>Bail Support System Staff Area</h1>
-        
+
     </header>
-
-
-
-     
-   

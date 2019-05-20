@@ -8,7 +8,11 @@ body {
   height: 980px;
   margin: 0;
   padding: 0;
-  font: 14px sans-serif; 
+  font: 14px sans-serif;
+}
+
+.form_dailyCensus{
+  text-align: left;
 }
 .wrapper {
     text-align:left;
